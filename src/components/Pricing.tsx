@@ -88,7 +88,7 @@ const Pricing = () => {
             Less than hiring a <span className="gradient-text">freelancer</span>
           </h2>
           <p className="text-foreground/70 text-lg mb-8">
-            Pick a plan that works for you. All plans include a no-questions-asked 14-day test drive.
+            Pick a plan that works for you.
           </p>
 
           {/* Billing Toggle */}

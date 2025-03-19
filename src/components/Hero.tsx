@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
@@ -28,10 +27,6 @@ const Hero = () => {
             
             {/* CTA Section */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="h-12 px-6 bg-primary hover:bg-primary/90 text-white font-medium">
-                Try it free for 14 days
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
               <Button variant="outline" className="h-12 px-6">
                 See how it actually works
               </Button>

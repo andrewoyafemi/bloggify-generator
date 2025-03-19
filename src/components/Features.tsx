@@ -35,7 +35,7 @@ const Features = () => {
     {
       icon: <Sparkles className="h-6 w-6" />,
       title: "Sounds like you wrote it",
-      description: "Our AI learns your quirks, catchphrases, and the way you talk. Your readers won't know the difference.",
+      description: "Really, who uses "conundrum" in their copy? GhostRyt is your superhuman copywriter",
     },
     {
       icon: <TrendingUp className="h-6 w-6" />,
@@ -70,7 +70,7 @@ const Features = () => {
     {
       icon: <Zap className="h-6 w-6" />,
       title: "One-click publishing",
-      description: "We play nice with WordPress, Medium, and all the other platforms. Write once, publish everywhere, without the copy-paste.",
+      description: "Write once, publish everywhere, without the copy-paste stress- we work well with WordPress, Ghost, Medium and coming soon to SubStack",
     },
   ];
 

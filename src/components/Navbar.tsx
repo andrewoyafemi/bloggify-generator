@@ -68,9 +68,6 @@ const Navbar = () => {
           <Button variant="ghost" size="sm">
             Log in
           </Button>
-          <Button size="sm" className="bg-primary text-white hover:bg-primary/90 transition-colors">
-            Start Free Trial
-          </Button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -122,9 +119,6 @@ const Navbar = () => {
           <div className="pt-6 space-y-4">
             <Button className="w-full" variant="outline">
               Log in
-            </Button>
-            <Button className="w-full bg-primary text-white hover:bg-primary/90">
-              Start Free Trial
             </Button>
           </div>
         </nav>
