@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="md:col-span-1">
             <div className="mb-6">
               <span className="font-display text-2xl font-bold tracking-tight">
-                Bloggify
+                GhostRyt
               </span>
             </div>
             <p className="text-foreground/70 text-sm mb-6 max-w-xs">
@@ -89,7 +89,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-gray-200">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between">
             <p className="text-foreground/60 text-sm">
-              &copy; {currentYear} Bloggify. All rights reserved.
+              &copy; {currentYear} GhostRyt. All rights reserved.
             </p>
             <div className="flex flex-wrap gap-x-6 gap-y-2 mt-4 md:mt-0">
               {['Terms', 'Privacy', 'Cookies', 'Accessibility'].map((item, i) => (

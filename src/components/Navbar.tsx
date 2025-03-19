@@ -31,7 +31,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="#" className="flex items-center">
           <span className="font-display text-2xl font-bold tracking-tight">
-            Bloggify
+            GhostRyt
           </span>
         </a>
 
