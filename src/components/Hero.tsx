@@ -15,25 +15,25 @@ const Hero = () => {
           {/* Hero Content */}
           <div className="reveal-on-scroll">
             <div className="inline-block mb-4 px-3 py-1 bg-blue-50 rounded-full border border-blue-100">
-              <p className="text-xs font-medium text-blue-700">Automate Your Content Creation</p>
+              <p className="text-xs font-medium text-blue-700">Say goodbye to writer's block</p>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold tracking-tight mb-6 text-balance leading-tight">
-              <span>Daily blog posts,</span>
+              <span>Fresh blog posts,</span>
               <br />
-              <span className="gradient-text">zero effort.</span>
+              <span className="gradient-text">without the hassle.</span>
             </h1>
             <p className="text-lg md:text-xl text-foreground/80 mb-8 max-w-xl text-balance">
-              Our AI content generator creates high-quality blog posts every day, letting you focus on what matters most—growing your business.
+              Look, we get it. Writing consistent content is tough. That's why we built Bloggify — so you can get back to what you're actually good at while we handle the words.
             </p>
             
             {/* CTA Section */}
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="h-12 px-6 bg-primary hover:bg-primary/90 text-white font-medium">
-                Start Your Free Trial
+                Try it free for 14 days
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
               <Button variant="outline" className="h-12 px-6">
-                See How It Works
+                See how it actually works
               </Button>
             </div>
             
@@ -50,7 +50,7 @@ const Hero = () => {
                 ))}
               </div>
               <div className="text-sm">
-                <span className="font-medium">1,000+</span> business owners
+                <span className="font-medium">1,000+</span> busy folks like you
                 <div className="flex mt-1">
                   {[1, 2, 3, 4, 5].map((star) => (
                     <svg key={star} className="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">

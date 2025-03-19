@@ -10,7 +10,7 @@ import CTA from '../components/CTA';
 const Index = () => {
   useEffect(() => {
     // Set page title
-    document.title = "Bloggify - AI Content Generator for Businesses";
+    document.title = "Bloggify - AI Content That Doesn't Sound Like a Robot";
   }, []);
 
   return (

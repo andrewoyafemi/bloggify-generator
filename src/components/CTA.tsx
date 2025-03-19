@@ -16,18 +16,18 @@ const CTA = () => {
           <div className="relative py-16 px-8 md:px-16 text-white flex flex-col md:flex-row md:items-center md:justify-between gap-10">
             <div className="md:w-7/12">
               <h2 className="text-3xl md:text-4xl font-display font-bold mb-6 leading-tight">
-                Ready to transform your content strategy?
+                Ready to stop stressing about your blog?
               </h2>
               <p className="text-white/80 text-lg mb-8 max-w-lg">
-                Join thousands of businesses that are saving time and growing their audience with daily AI-generated content.
+                Join the smart folks who post every day without writing a word. Your audience won't know the difference, but your calendar will.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button className="h-12 px-6 bg-white text-blue-700 hover:bg-white/90">
-                  Start Your 14-Day Free Trial
+                  Start your 14-day test drive
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
                 <Button variant="outline" className="h-12 px-6 text-white border-white/30 hover:bg-white/10">
-                  Schedule a Demo
+                  See a quick demo
                 </Button>
               </div>
             </div>
@@ -39,7 +39,7 @@ const CTA = () => {
                       <path d="M5 12L10 17L20 7" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                   </div>
-                  <p className="font-medium">No credit card required</p>
+                  <p className="font-medium">No credit card needed</p>
                 </div>
                 <div className="flex items-center space-x-3 mb-2">
                   <div className="w-6 h-6 rounded-full bg-green-500 flex items-center justify-center">
@@ -47,7 +47,7 @@ const CTA = () => {
                       <path d="M5 12L10 17L20 7" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                   </div>
-                  <p className="font-medium">14-day free trial</p>
+                  <p className="font-medium">Full access for 14 days</p>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-6 h-6 rounded-full bg-green-500 flex items-center justify-center">
@@ -55,7 +55,7 @@ const CTA = () => {
                       <path d="M5 12L10 17L20 7" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                   </div>
-                  <p className="font-medium">Cancel anytime</p>
+                  <p className="font-medium">Cancel with one click</p>
                 </div>
               </div>
             </div>

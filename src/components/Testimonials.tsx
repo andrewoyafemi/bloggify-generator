@@ -17,7 +17,7 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    content: "Bloggify has completely revolutionized our content strategy. We now publish high-quality blog posts every day without the constant scramble to create content. This has freed up so much time to focus on other aspects of our business.",
+    content: "I was spending every Sunday night scrambling to write blog posts. Now I spend that time with my family while Bloggify does the heavy lifting. My traffic is up 67% and I'm actually enjoying weekends again!",
     author: "Sarah Johnson",
     role: "Marketing Director",
     company: "GrowthPulse",
@@ -26,7 +26,7 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 2,
-    content: "As a solo entrepreneur, I was struggling to maintain a consistent blog schedule. With Bloggify, I'm able to maintain an active blog that drives traffic and generates leads, all while focusing on product development. It's been a game-changer.",
+    content: "Look, I was skeptical. Really skeptical. Another AI tool? But after the first month, I was sold. The content sounds like me, my audience loves it, and I've freed up 15 hours every week for product work. That's gold when you're solo.",
     author: "Michael Chen",
     role: "Founder",
     company: "NexTech Solutions",
@@ -35,7 +35,7 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 3,
-    content: "The quality of content that Bloggify produces is incredible. It's hard to believe it's AI-generated. Our audience engagement has increased by 43% since we started using the platform, and we're seeing a significant boost in organic traffic.",
+    content: "I was getting maybe 300 visitors a month from organic search. Six months with Bloggify and we're at 4,500 and climbing. The best part? I barely think about content anymore — it just happens.",
     author: "Emily Rodriguez",
     role: "Content Strategist",
     company: "Vertex Media",
@@ -103,13 +103,13 @@ const Testimonials = () => {
       <div className="max-w-6xl mx-auto relative">
         <div className="text-center max-w-3xl mx-auto mb-16 reveal-on-scroll">
           <div className="inline-block mb-4 px-3 py-1 bg-blue-50 rounded-full border border-blue-100">
-            <p className="text-xs font-medium text-blue-700">Customer Testimonials</p>
+            <p className="text-xs font-medium text-blue-700">Don't just take our word for it</p>
           </div>
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">
-            Loved by <span className="gradient-text">business owners</span>
+            From real <span className="gradient-text">humans like you</span>
           </h2>
           <p className="text-foreground/70 text-lg">
-            Hear what our customers have to say about how Bloggify has transformed their content strategy.
+            Here's what happens when busy folks stop worrying about content creation.
           </p>
         </div>
 

@@ -29,48 +29,48 @@ const Features = () => {
   const features = [
     {
       icon: <Calendar className="h-6 w-6" />,
-      title: "Daily Content Schedule",
-      description: "Set up your content calendar once and get fresh blog posts published automatically every day.",
+      title: "Content on autopilot",
+      description: "Set it once, then forget about it. Fresh posts show up on your blog like magic — no alarm clock needed.",
     },
     {
       icon: <Sparkles className="h-6 w-6" />,
-      title: "AI-Powered Writing",
-      description: "Our advanced AI analyzes your brand voice and creates content that sounds authentically like you.",
+      title: "Sounds like you wrote it",
+      description: "Our AI learns your quirks, catchphrases, and the way you talk. Your readers won't know the difference.",
     },
     {
       icon: <TrendingUp className="h-6 w-6" />,
-      title: "SEO Optimization",
-      description: "Every post is automatically optimized for search engines to drive more organic traffic.",
+      title: "Google will love you",
+      description: "Every post is quietly optimized to climb the search ranks. More eyeballs, zero effort.",
     },
     {
       icon: <Clock className="h-6 w-6" />,
-      title: "Time-Saving",
-      description: "Save 10+ hours per week that would otherwise be spent researching, writing, and editing content.",
+      title: "Your time back",
+      description: "What would you do with an extra 10 hours each week? That's what we're giving back to you. You're welcome.",
     },
     {
       icon: <RefreshCw className="h-6 w-6" />,
-      title: "Content Recycling",
-      description: "Automatically repurpose your best-performing content into new formats to maximize its value.",
+      title: "Content that works twice",
+      description: "We'll remix your greatest hits into fresh formats. One idea, multiple pieces of content — that's smart, not lazy.",
     },
     {
       icon: <Layers className="h-6 w-6" />,
-      title: "Content Library",
-      description: "Build a comprehensive library of content that continuously drives traffic and leads.",
+      title: "Build your library",
+      description: "Watch your content collection grow steadily. Before you know it, you've got an army of blog posts working for you 24/7.",
     },
     {
       icon: <Search className="h-6 w-6" />,
-      title: "Topic Research",
-      description: "AI-powered research finds the most relevant and trending topics in your industry.",
+      title: "Never run out of ideas",
+      description: "Writer's block? Never heard of it. We'll dig up the hot topics in your industry so you're always ahead of the curve.",
     },
     {
       icon: <PenTool className="h-6 w-6" />,
-      title: "Human Oversight",
-      description: "Easy review and editing process lets you maintain quality control with minimal time investment.",
+      title: "Keep the final say",
+      description: "We write it, you approve it. Want to tweak something? Go for it. It takes 5 minutes, not 5 hours.",
     },
     {
       icon: <Zap className="h-6 w-6" />,
-      title: "Instant Publishing",
-      description: "Direct integration with WordPress, Medium, and other platforms for seamless publishing.",
+      title: "One-click publishing",
+      description: "We play nice with WordPress, Medium, and all the other platforms. Write once, publish everywhere, without the copy-paste.",
     },
   ];
 
@@ -80,13 +80,13 @@ const Features = () => {
       <div className="max-w-7xl mx-auto relative">
         <div className="text-center max-w-3xl mx-auto mb-16 reveal-on-scroll">
           <div className="inline-block mb-4 px-3 py-1 bg-blue-50 rounded-full border border-blue-100">
-            <p className="text-xs font-medium text-blue-700">Powerful Features</p>
+            <p className="text-xs font-medium text-blue-700">The good stuff</p>
           </div>
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">
-            Everything you need for <span className="gradient-text">effortless blogging</span>
+            Blog like a <span className="gradient-text">content machine</span>
           </h2>
           <p className="text-foreground/70 text-lg">
-            Our platform handles the entire content creation process so you can focus on growing your business.
+            We didn't just build another AI tool. We built the entire content process so you don't have to think about it.
           </p>
         </div>
 
