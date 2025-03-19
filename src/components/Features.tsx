@@ -35,7 +35,7 @@ const Features = () => {
     {
       icon: <Sparkles className="h-6 w-6" />,
       title: "Sounds like you wrote it",
-      description: "Really, who uses "conundrum" in their copy? GhostRyt is your superhuman copywriter",
+      description: "Really, who uses \"conundrum\" in their copy? GhostRyt is your superhuman copywriter",
     },
     {
       icon: <TrendingUp className="h-6 w-6" />,
