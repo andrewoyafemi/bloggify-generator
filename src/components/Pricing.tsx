@@ -11,12 +11,14 @@ interface PlanFeature {
 
 interface PricingPlan {
   name: string;
+  subtitle: string;
   price: string;
   period: string;
   description: string;
   features: PlanFeature[];
   highlighted?: boolean;
   ctaText: string;
+  idealFor: string;
 }
 
 const Pricing = () => {
@@ -24,56 +26,56 @@ const Pricing = () => {
 
   const plans: PricingPlan[] = [
     {
-      name: "Basic",
+      name: "Lone Ranger",
+      subtitle: "Basic Plan",
       price: billingPeriod === "yearly" ? "$29" : "$39",
       period: billingPeriod === "yearly" ? "/month, billed yearly" : "/month",
-      description: "For solo creators just getting started",
+      description: "For solopreneurs just getting started",
       features: [
-        { included: true, text: "10 fresh blog posts each month" },
-        { included: true, text: "Basic SEO that actually works" },
-        { included: true, text: "Ideas when you're stuck" },
-        { included: true, text: "WordPress plugin" },
-        { included: false, text: "Custom posting schedule" },
-        { included: false, text: "Advanced SEO magic" },
-        { included: false, text: "Content recycling" },
-        { included: false, text: "VIP support" },
+        { included: true, text: "600-800 word AI-generated blog posts" },
+        { included: true, text: "Auto-publish to WordPress" },
+        { included: true, text: "AI-generated social media captions (sent via email)" },
+        { included: true, text: "Internal linking recommendations for SEO" },
+        { included: true, text: "Basic AI writing frameworks (limited to standard structures)" },
       ],
-      ctaText: "Start with Basic",
+      ctaText: "Start with Lone Ranger",
+      idealFor: "Ideal for solopreneurs or small business owners who need basic AI-generated content without deep customization."
     },
     {
-      name: "Pro",
-      price: billingPeriod === "yearly" ? "$79" : "$99",
+      name: "Smart Marketer",
+      subtitle: "Standard Plan",
+      price: billingPeriod === "yearly" ? "$49" : "$59",
       period: billingPeriod === "yearly" ? "/month, billed yearly" : "/month",
-      description: "For serious creators who mean business",
+      description: "For growing marketers who want more",
       highlighted: true,
       features: [
-        { included: true, text: "30 fresh blog posts each month" },
-        { included: true, text: "Advanced SEO that crushes it" },
-        { included: true, text: "Research that finds the gold" },
-        { included: true, text: "WordPress & Medium integration" },
-        { included: true, text: "Post whenever you want" },
-        { included: true, text: "See what's working (analytics)" },
-        { included: false, text: "Content recycling" },
-        { included: false, text: "VIP support" },
+        { included: true, text: "800-1200 word AI-generated blog posts" },
+        { included: true, text: "Everything in Lone Ranger +" },
+        { included: true, text: "Advanced AI writing frameworks (APR, Explore-Engage-Escape, Revenue Cycle)" },
+        { included: true, text: "Multi-step AI content generation (blog + email + social post in one go)" },
+        { included: true, text: "AI content strategy insights (market trends & keyword suggestions)" },
+        { included: true, text: "Customizable AI writing personas (brand voice adaptation)" },
       ],
-      ctaText: "Go Pro",
+      ctaText: "Choose Smart Marketer",
+      idealFor: "Best for growing marketers who want AI-powered strategy and multi-step content automation."
     },
     {
-      name: "Enterprise",
-      price: billingPeriod === "yearly" ? "$199" : "$249",
+      name: "Authority Builder",
+      subtitle: "Premium Plan",
+      price: billingPeriod === "yearly" ? "$69" : "$79",
       period: billingPeriod === "yearly" ? "/month, billed yearly" : "/month",
       description: "For content powerhouses who need it all",
       features: [
-        { included: true, text: "Unlimited blog posts (yes, really)" },
-        { included: true, text: "Premium SEO that dominates" },
-        { included: true, text: "Deep-dive topic research" },
-        { included: true, text: "Connect to anything" },
-        { included: true, text: "Your schedule, your rules" },
-        { included: true, text: "Analytics that tell the truth" },
-        { included: true, text: "Turn old posts into new gold" },
-        { included: true, text: "A real human you can call" },
+        { included: true, text: "1200-2000 word AI-generated blog posts" },
+        { included: true, text: "Everything in Smart Marketer +" },
+        { included: true, text: "AI feedback loop for real-time content refinement (multi-turn editing)" },
+        { included: true, text: "AI-powered sales copy analyzer & conversion score" },
+        { included: true, text: "AI trend analysis for high-impact content planning" },
+        { included: true, text: "Hyper-personalized AI writing based on user history & preferences" },
+        { included: true, text: "FREE 3-month access to future Ghostryt products" },
       ],
-      ctaText: "Contact Sales",
+      ctaText: "Go Premium",
+      idealFor: "Designed for high-level content creators and businesses that want fully optimized, conversion-driven AI content."
     },
   ];
 
@@ -140,7 +142,8 @@ const Pricing = () => {
                 </div>
               )}
               <div className="p-6 md:p-8">
-                <h3 className="text-xl font-semibold mb-2">{plan.name}</h3>
+                <h3 className="text-xl font-semibold mb-1">{plan.name}</h3>
+                <p className="text-primary/80 text-sm font-medium mb-2">{plan.subtitle}</p>
                 <p className="text-foreground/70 text-sm mb-4">{plan.description}</p>
                 <div className="mb-6">
                   <span className="text-4xl font-bold">{plan.price}</span>
@@ -158,7 +161,7 @@ const Pricing = () => {
                   {plan.ctaText}
                 </Button>
 
-                <ul className="space-y-3">
+                <ul className="space-y-3 mb-6">
                   {plan.features.map((feature, featureIndex) => (
                     <li
                       key={featureIndex}
@@ -181,6 +184,10 @@ const Pricing = () => {
                     </li>
                   ))}
                 </ul>
+                
+                <div className="pt-4 border-t border-gray-100">
+                  <p className="text-sm text-blue-600">{plan.idealFor}</p>
+                </div>
               </div>
             </div>
           ))}
