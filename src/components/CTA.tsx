@@ -1,4 +1,3 @@
-
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -23,7 +22,7 @@ const CTA = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button className="h-12 px-6 bg-white text-blue-700 hover:bg-white/90">
-                  Start your 14-day test drive
+                  Get started now
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
                 <Button variant="outline" className="h-12 px-6 text-white border-white/30 hover:bg-white/10">
