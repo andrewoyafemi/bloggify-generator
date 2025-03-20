@@ -195,7 +195,7 @@ const Pricing = () => {
 
         <div className="mt-16 text-center max-w-xl mx-auto reveal-on-scroll">
           <p className="text-foreground/70 text-sm mb-4">
-            Got special needs? Let's chat about a custom setup that works for your team.
+            Are you an agency or have enterprise needs? Let's create something custom for you
           </p>
           <Button variant="outline">Talk to a human</Button>
         </div>
