@@ -5,9 +5,9 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-gray-50 pt-16 pb-12 px-6">
+    <footer className="bg-gray-50 pt-12 pb-8 px-6">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
           <div className="md:col-span-1">
             <div className="mb-6">
               <span className="font-display text-2xl font-bold tracking-tight">
@@ -36,7 +36,7 @@ const Footer = () => {
               Product
             </h3>
             <ul className="space-y-3">
-              {['Features', 'Pricing', 'Use Cases', 'Integrations', 'API'].map((item) => (
+              {['Features', 'Pricing'].map((item) => (
                 <li key={item}>
                   <a 
                     href="#"
@@ -54,7 +54,7 @@ const Footer = () => {
               Company
             </h3>
             <ul className="space-y-3">
-              {['About', 'Blog', 'Careers', 'Press', 'Partners'].map((item) => (
+              {['Contact', 'Blog'].map((item) => (
                 <li key={item}>
                   <a 
                     href="#"
@@ -72,7 +72,7 @@ const Footer = () => {
               Support
             </h3>
             <ul className="space-y-3">
-              {['Documentation', 'Help Center', 'Tutorials', 'Status', 'Contact'].map((item) => (
+              {['Documentation', 'Tutorials'].map((item) => (
                 <li key={item}>
                   <a 
                     href="#"
@@ -86,7 +86,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="pt-8 border-t border-gray-200">
+        <div className="pt-6 border-t border-gray-200">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between">
             <p className="text-foreground/60 text-sm">
               &copy; {currentYear} GhostRyt. All rights reserved.
